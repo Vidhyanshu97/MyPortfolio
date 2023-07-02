@@ -16,6 +16,7 @@
 }
 .project-card img{
     width: 100%;
+    height: 50%;
 }
 .project-title{
     color: #fff;

@@ -57,4 +57,9 @@
     .hamburger{
         display: initial;
     }
+    .newlogo{
+        height: 40px;
+        width: 80px;
+        margin-left: 0px;
+    }
 }

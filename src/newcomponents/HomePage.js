@@ -33,7 +33,7 @@ const HomePage = () => {
           </div>
         </div>
         <h1>React Web Developer</h1>
-        <p>Currently, I am Working as a Software Engginer in TCS.</p>
+        <p>Currently, I am Working as a System Engineer in TCS.</p>
         <div>
           <Link to="/project" className="btn">
             Project
