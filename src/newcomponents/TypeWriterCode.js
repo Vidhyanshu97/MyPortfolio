@@ -1,13 +1,13 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-const TypeWriterCode = () => {
+const TypeWriterCode = (props) => {
   return (
     <div>
       <Typewriter
         onInit={(typewriter) => {
           typewriter
-            .typeString("Vidhyanshu Mishra.")
+            .typeString(props.data)
             .callFunction(() => {
               console.log("String typed out!");
             })

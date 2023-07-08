@@ -1,6 +1,6 @@
 import "./HomePageStyles.css";
 import './AbtCnt.css';
-import IntoImg from "../usefullFiles/intro-bg.jpg";
+import IntoImg from "../usefullFiles/pet.jpg";
 import MyImg from "../usefullFiles/myphoto.jpg"
 import React from "react";
 import { Link } from "react-router-dom";
@@ -29,11 +29,11 @@ const HomePage = () => {
             <img src={MyImg} alt="MyImg" />
           </div>
           <div className="right">
-            <h1 className="main-heading">Hi, I am <span className="name"><TypeWriterCode/></span></h1>
+            <h1 className="main-heading">Hi, I am <span className="name"><TypeWriterCode data={"Vidhyanshu Mishra."}/></span></h1>
           </div>
         </div>
         <h1>React Web Developer</h1>
-        <p>Currently, I am Working as a System Engineer in TCS.</p>
+        <p>1+ year of experince in working as React Web Developer. Currently, I am Working at<span className="name"> Tata Consultancy Services (TCS) </span> as a System Engineer.</p>
         <div>
           <Link to="/project" className="btn">
             Project

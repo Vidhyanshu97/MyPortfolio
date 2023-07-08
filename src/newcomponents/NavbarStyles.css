@@ -13,8 +13,7 @@
     transition: 0.5s;
 }
 .newlogo{
-    height: 70px;
-    width: 151px;
+    width: 6.5%;
     margin-left: 55px;
 }
 .nav-menu{
@@ -58,8 +57,7 @@
         display: initial;
     }
     .newlogo{
-        height: 40px;
-        width: 80px;
+        width: 8%;
         margin-left: 0px;
     }
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./NavbarStyles.css";
 import { FaBars, FaTimes } from "react-icons/fa"
 import { Link } from 'react-router-dom';
-import myLogo from '../usefullFiles/logo (2).png'
+import myLogo from '../usefullFiles/Vidhyanshu -logos_white.png'
 
 const Navbar = () => {
    
@@ -32,10 +32,13 @@ const Navbar = () => {
             <Link to="/home">Home</Link>
         </li>
         <li>
+            <Link to="/about">About</Link>
+        </li>
+        <li>
             <Link to="/project">Project</Link>
         </li>
         <li>
-            <Link to="/about">About</Link>
+            <Link to="/blogs">MyBlogs</Link>
         </li>
         <li>
             <Link to="/contact">Contact</Link>

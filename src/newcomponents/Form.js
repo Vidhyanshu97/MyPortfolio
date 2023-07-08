@@ -3,7 +3,7 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div className="form">
+    <div className="forms">
       <form >
       <h1>Enter Form Details..</h1>
         <label htmlFor="">Your Name</label>

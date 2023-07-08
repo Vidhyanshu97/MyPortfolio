@@ -1,33 +1,81 @@
 import React from "react";
 import "./AbtCnt.css";
-import { Link } from "react-router-dom";
-import React1 from "../usefullFiles/react1.jpg";
-import React2 from "../usefullFiles/react2.webp";
 
 const AbtCnt = () => {
   return (
-    <div className="about">
-      <div className="left">
-        <h1>Who AM I?</h1>
-        <p>
-          IT professional with 1 yrs of experience as Java/SQL developer,
-          React-js, JavaScript, Web frameworks etc.
-        </p>
-        <Link to="/contact">
-          <button className="btn">Contact</button>
-        </Link>
-      </div>
-      <div className="right">
-        <div className="img-container">
-          <div className="img-stack top">
-            <img src={React1} alt="ReactImg" className="img" />
+    <>
+      <h1 className="skills-heading">MY SKILLS</h1>
+      <div className="about">
+        <div className="left">
+          <div className="maincontainer">
+            <div className="elmname">
+              <p>HTML5/JSX: <span>80%</span></p>
+            </div>
+            <div className="container">
+              <div className="skill html">80%</div>
+            </div>
           </div>
-          <div className="img-stack bottom">
-            <img src={React2} alt="ReactImg" className="img" />
+          <div className="maincontainer">
+            <div className="elmname">
+              <p>JAVASCRIPT: <span>70%</span></p>
+            </div>
+            <div className="container">
+              <div className="skill js">70%</div>
+            </div>
+          </div>
+          <div className="maincontainer">
+            <div className="elmname">
+              <p>REACT JS: <span>75%</span></p>
+            </div>
+            <div className="container">
+              <div className="skill rjs">75%</div>
+            </div>
+          </div>
+          <div className="maincontainer">
+            <div className="elmname">
+              <p>MYSQL: <span>60%</span></p>
+            </div>
+            <div className="container">
+              <div className="skill mysql">60%</div>
+            </div>
+          </div>
+        </div>
+        <div className="right">
+        <div className="maincontainer">
+            <div className="elmname">
+              <p>CSS3: <span>75%</span></p>
+            </div>
+            <div className="container">
+              <div className="skill rjs">75%</div>
+            </div>
+          </div>
+          <div className="maincontainer">
+            <div className="elmname">
+              <p>CORE JAVA: <span>65%</span></p>
+            </div>
+            <div className="container">
+              <div className="skill java">65%</div>
+            </div>
+          </div>
+          <div className="maincontainer">
+            <div className="elmname">
+              <p>BOOTSTRAP: <span>70%</span></p>
+            </div>
+            <div className="container">
+              <div className="skill js">70%</div>
+            </div>
+          </div>
+          <div className="maincontainer">
+            <div className="elmname">
+              <p>PYTHON: <span>65%</span></p>
+            </div>
+            <div className="container">
+              <div className="skill rjs">65%</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
