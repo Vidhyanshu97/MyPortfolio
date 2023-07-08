@@ -11,10 +11,10 @@ const ProjectCard = (props) => {
       <div className="pro-details">
         <p>{props.text}</p>
         <div className="pro-btns">
-          <NavLink to={props.view} className="btn">
+          <NavLink to={props.view} className="btn" target="blank">
             Website Link
           </NavLink>
-          <NavLink to={props.source} className="btn">
+          <NavLink to={props.source} className="btn" target="blank">
             Source
           </NavLink>
         </div>
